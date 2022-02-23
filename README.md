@@ -71,7 +71,7 @@ cat will show what's inside the test filem in our case it will print out "some t
 git status
 ```
 
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
   <pre>
     <code class="prettyprint">
 On branch test_branch
