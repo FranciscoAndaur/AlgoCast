@@ -73,7 +73,7 @@ git status
 
 
   <pre>
-    <code class="prettyprint">
+    <div>
 On branch test_branch
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -86,7 +86,7 @@ Untracked files:
         <span style="color:red">test</span>
 
 no changes added to commit (use "git add" and/or "git commit -a")
-    </code>
+    </div>
   </pre>
 
 it will show the new test file as red meaning it has some changes ready for us to upload to upload to github.
