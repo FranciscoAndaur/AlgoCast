@@ -36,6 +36,7 @@ control C to stop the test runner.
 ## Getting practice using github
 
 **branchout**
+git fetch to make sure everything is up to date on the main branch, then checkout to a mew branch where you will be working on a particular algo. Then git remote add upstream to allow you to make changes to your own cloned repo.
 
 ```
 git fetch
@@ -48,3 +49,4 @@ git checkout -b new_branch
 git remote add upstream https://github.com/FranciscoAndaur/AlgoCast
 ```
 git fetch to make sure everything is up to date then checkout to a mew branch where you will be working on a particular algo. Then git remote add upstream to allow you to make changes to your own cloned repo.
+git add
