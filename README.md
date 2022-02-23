@@ -140,4 +140,12 @@ the new file should appear on your **Main** branch now.
 
 >   ![image 7](/images/7.jpg)<br>
 
+now go back to main branch, fetch and merge your test branch.
+
+```
+git checkout main
+git fetch
+git merge test_branch
+```
+
 Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
