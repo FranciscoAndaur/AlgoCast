@@ -36,10 +36,21 @@ control C to stop the test runner.
 ## Getting practice using github
 
 **branchout**
-git fetch to make sure everything is up to date on the main branch, then checkout to a mew branch where you will be working on a particular algo. Then git remote add upstream to allow you to make changes to your own cloned repo.
+git fetch to make sure everything is up to date on the main branch and git status to double check everything is up to date.
 
 ```
 git fetch
+git status
+```
+it should show this
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+now branch out, checkout to a mew_branch where you will be working on a particular algo. Then git remote add upstream to allow you to make changes to your own cloned repo.
+```
 git checkout -b new_branch
 ```
 >"...from a forked repo point of view. You have access to pull and push from origin, which will be your fork of the main diaspora repo. To pull in changes from this main repo, you add a remote, "upstream" in your local repo, pointing to this original and pull from it.
