@@ -146,6 +146,7 @@ now go back to main branch, fetch and merge your test branch.
 git checkout main
 git fetch
 git merge test_branch
+git pull
 ```
 
 Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
