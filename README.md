@@ -2,7 +2,7 @@
 
 ## **Set-up Environment**
 
-To begin setting up your invironment you need to install Jest.<br>
+To begin setting up your environment you need to install Jest.<br>
 cd into project and run this line of code:
 ```
 sudo npm install -g jest
