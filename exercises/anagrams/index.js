@@ -9,7 +9,10 @@
 //   anagrams('Hi there', 'Bye there') --> False
 
 function anagrams(stringA, stringB) {
-
+    return cleanString(stringA) === cleanString(stringB)
+}
+function cleanString(string) {
+    return string.replace(/[^\w]/g, "").toLowerCase().split('').sort().join('')
 }
 
 module.exports = anagrams;
